@@ -9,13 +9,13 @@
 <body>
     <div id="widget-palette">
         <h2>Widgets</h2>
-        <div class="widget" draggable="true" data-type="staticButton">Static Button</div>
-        <div class="widget" draggable="true" data-type="timeButton">Time Button</div>
-        <div class="widget" draggable="true" data-type="battery">Battery</div>
-        <div class="widget" draggable="true" data-type="cpu">CPU</div>
-        <div class="widget" draggable="true" data-type="weather">Weather</div>
+        <div class="widget matrix-button" draggable="true" data-type="staticButton">Static Button</div>
+        <div class="widget matrix-button" draggable="true" data-type="timeButton">Time Button</div>
+        <div class="widget matrix-button" draggable="true" data-type="battery">Battery</div>
+        <div class="widget matrix-button" draggable="true" data-type="cpu">CPU</div>
+        <div class="widget matrix-button" draggable="true" data-type="weather">Weather</div>
     </div>
-    <div id="touchbar-preview">
+    <div id="touchbar-preview" class="matrix-bg">
         Drop widgets here
     </div>
     <div id="properties-panel">
@@ -25,5 +25,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="matrix.js"></script>
 </body>
 </html>
