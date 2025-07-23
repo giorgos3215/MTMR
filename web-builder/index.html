@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTMR Web Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="widget-palette">
+        <h2>Widgets</h2>
+        <div class="widget" draggable="true" data-type="staticButton">Static Button</div>
+        <div class="widget" draggable="true" data-type="timeButton">Time Button</div>
+        <div class="widget" draggable="true" data-type="battery">Battery</div>
+        <div class="widget" draggable="true" data-type="cpu">CPU</div>
+        <div class="widget" draggable="true" data-type="weather">Weather</div>
+    </div>
+    <div id="touchbar-preview">
+        Drop widgets here
+    </div>
+    <div id="properties-panel">
+        <h2>Properties</h2>
+        <div id="properties-content"></div>
+        <button id="generate-json">Generate JSON</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
